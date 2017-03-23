@@ -23,3 +23,11 @@ If you want to download anything besides a single cart in a thread, you need to 
 
 * **-p** or **--page** to download all the carts in an index, example: `picodownload.sh -p http://www.lexaloffle.com/bbs/?cat=7`
 * **-f** or **--file** to download all the carts from your favourite page. Note: don't use spaces in your filename, i must have forgot some quotes in the script, it bugs out at the moment. Example: `picodownload.sh -f ./lexalol.html`
+
+# Filename
+
+If you download the cart from the following url [http://www.lexaloffle.com/bbs/?tid=29017](funfetched_nanoman-1.0_29017_38515.p8.png), the cart will be saved as: `funfetched_nanoman-1.0_29017_38515.p8.png` ; the structure of the file is the following: `"$AUTHOR_NAME"_"$GAME_TITLE"_"$BBS_ID"_"$GAME_ID".p8.png`. The BBSI_ID is especially usefull if you want to quickly find the original thread where the cart was downloaded from.
+
+You can customize the filename by editing this line in the script:
+`local FINAL_FILENAME="$AUTHOR_NAME"_"$GAME_TITLE"_"$BBS_ID"_"$GAME_ID".p8.png`
+
