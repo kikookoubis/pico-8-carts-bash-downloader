@@ -11,7 +11,11 @@ Download the .sh file in this repository and save it in your $PATH, you can also
 
 Example: `./picodownload.sh http://www.lexaloffle.com/bbs/?tid=28957`. 
 
-The file has to be executable too: `chmod u+x picodownload.sh`
+Before launching the script, edit the following line to change the directory where you want to download the carts:
+
+`readonly DOWNLOAD_DIR="/home/bob/.lexaloffle/pico-8/carts/incoming"`
+
+The .sh file has to be executable too: `chmod u+x picodownload.sh`
 
 # The script supports
 
