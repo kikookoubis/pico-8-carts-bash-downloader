@@ -7,7 +7,7 @@ This bash script downloads directly [Pico-8](http://www.lexaloffle.com/pico-8.ph
 
 # How to use the script
 
-Download the .sh file in this repository and save it in your $PATH, you can also use it locally and call it adding a ./ - example: `./picodownload.sh http://www.lexaloffle.com/bbs/?tid=28957`
+Download the .sh file in this repository and save it in your $PATH, you can also use it locally and call it adding a `./` - example: `./picodownload.sh http://www.lexaloffle.com/bbs/?tid=28957`. The file has to be executable too: `chmod u+x picodownload.sh`.
 
 # The script supports
 
