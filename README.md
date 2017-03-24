@@ -9,7 +9,7 @@ This bash script downloads directly [Pico-8](http://www.lexaloffle.com/pico-8.ph
 
 Download the .sh file in this repository and save it in your $PATH, you can also use it locally and call it adding a `./` 
 
-Example: `./picodownload.sh http://www.lexaloffle.com/bbs/?tid=28957`. 
+Example: `./picodownload.sh http://www.lexaloffle.com/bbs/?tid=28957`
 
 Before launching the script, edit the following line to change the directory where you want to download the carts:
 
